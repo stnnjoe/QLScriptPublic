@@ -9,7 +9,7 @@ const $ = new Env("罗技粉丝俱乐部");
 let envSplitor = ['\n','&']
 let httpErr, httpReq, httpResp
 
-let userCookie = ($.isNode() ? process.env.ljfsjlbCookie : $.getdata('ljfsjlbCookie')) || '';
+let userCookie = ($.isNode() ? process.env.ljfsjlbCookie : $.getdata('fM9qV_meQQLZWYdLtbb-4XUhYP_jRzk46z4GSOPHKteoRf0UXFGuHJnxxD0lVVzCnRD-CyCIcNEMrl-ggcm2zRyXWpTTJnJ13H_JvfpdOXXTBAX4rrueX5FsBHrItTllW7NreqshGpSyt_N3aoYgZaqMuWTXk-cwcEfHwpSwHhktSf3LlxoIOVk62gpvSFMXdZ0bSjL-xes8vT8xPydSDrUQg_SDNUpl3MGfJAwp4AhvspnJDewj-uo_6ww06yCKZeoOymidnKlfhLsInlIniN2YURhHOKuc2RD78MbYAISmlZzfr9WWY-ftI34JyurvyVrzWjMdpHkq8e2milQjYg9MJh-E1axOW1qeoEoPcA8')) || '';
 
 let userList = []
 let userIdx = 0
